@@ -5,5 +5,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+	<ItemGroup>
+		<PackageReference Include="System.Runtime.Handles" Version="4.3.0" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Core\Core.csproj" />
+	  <ProjectReference Include="..\Repository\Repository.csproj" />
+	  <ProjectReference Include="..\Utility\Utility.csproj" />
+	</ItemGroup>
 </Project>

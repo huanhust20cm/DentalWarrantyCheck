@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\Common\BaseServices\BaseServices.csproj" />
+    <ProjectReference Include="..\..\Common\Core\Core.csproj" />
+    <ProjectReference Include="..\Authen.Services\Authen.Services.csproj" />
   </ItemGroup>
 
 </Project>
