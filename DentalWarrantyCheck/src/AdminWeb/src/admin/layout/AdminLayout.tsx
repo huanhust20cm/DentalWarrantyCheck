@@ -21,14 +21,14 @@ const AdminLayout: React.FC<IProps> = (props) => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    // cookie.clearCookie('user');
-    // navigate('/login');
+    cookie.clearCookie('user');
+    navigate('/login');
   };
 
   useEffect(() => {
     const user = cookie.getCookie('user');
     if (!user) {
-      // navigate('/login');
+      navigate('/login');
     }
   }, [navigate]);
 

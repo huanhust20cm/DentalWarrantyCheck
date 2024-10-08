@@ -1,6 +1,8 @@
 import { dental } from './Dental';
+import { userAdmin } from './Login';
 
 const service = {
-  dental
+  dental,
+  userAdmin
 };
 export default service;

@@ -10,10 +10,10 @@ namespace Core.Model
     {
         public string? NumberCard { get; set; }
         public string? Name { get; set; }
-        public DateTimeOffset? DateOfBirth { get; set; }
+        public string? DateOfBirth { get; set; }
         public string? Phone { get; set; }
         public string? Teeth { get; set; }
-        public DateTimeOffset? StartDate { get; set; }
+        public string? StartDate { get; set; }
         // han su dung
         public string? Expiry { get; set; }
         public string? Labo { get; set; }

@@ -29,7 +29,7 @@ const onFinish: FormProps<FieldType>['onFinish'] = async (values) => {
 
 const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = () => {};
 
-const LeftNav: React.FC = () => {
+const Login: React.FC = () => {
   useEffect(() => {
     const user = cookie.getCookie('user');
     if (user) {
@@ -82,4 +82,4 @@ const LeftNav: React.FC = () => {
   );
 };
 
-export default React.memo(LeftNav);
+export default React.memo(Login);

@@ -4,12 +4,12 @@ import { PlusCircleOutlined } from '@ant-design/icons';
 import { Button, Card } from 'antd';
 import Search from 'antd/es/input/Search';
 import { useEffect, useRef, useState } from 'react';
-import { PanelRefInterface } from './CheckDental.model';
 import style from './CheckDental.module.scss';
 import DentalTable from './components/CheckDentalTable';
 import DentalModal from './components/DentalModal';
 import { useBoolean } from './utils/useBoolean';
 import { useNotification } from '@/common/utils/notification/useNotification';
+import { PanelRefInterface } from './CheckDental.model';
 
 const CheckDental = () => {
   const paramInitial: A = {
@@ -80,11 +80,11 @@ const CheckDental = () => {
     setCheckDentalData(data);
   };
 
-  const handleDelete = async () => {
+  const handleDelete = async (id: string) => {
     try {
       showLoading('delete');
       const model = {
-        id: checkDentalData?.id ?? ''
+        id: id ?? ''
       };
       const { data } = await service.dental.deleteDental(model);
       if (data) {
@@ -132,6 +132,7 @@ const CheckDental = () => {
           </div>
         </div>
         <DentalTable
+          handleEdit={openPanel}
           list={checkDentalDataApi ?? []}
           pagination={paginationProps}
           handleDelete={handleDelete}

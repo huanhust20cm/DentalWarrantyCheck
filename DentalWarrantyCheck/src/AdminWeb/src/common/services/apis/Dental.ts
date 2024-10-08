@@ -3,7 +3,7 @@ import axiosInstance from '../axios-instance/index';
 export const dental = {
   async createDental(Dental: Dental.IDentalModel): Promise<Response.IDefaultResponse> {
     try {
-      const response = await axiosInstance.post('dental/createDental', Dental);
+      const response = await axiosInstance.post('Information/createinformation', Dental);
       return response.data;
     } catch (error) {
       console.error('An error occurred while adding the account:', error);
@@ -13,7 +13,7 @@ export const dental = {
 
   async updateDental(Dental: Dental.IDentalModel): Promise<Response.IDefaultResponse> {
     try {
-      const response = await axiosInstance.post('dental/updateDental', Dental);
+      const response = await axiosInstance.post('Information/updateinformation', Dental);
       return response.data;
     } catch (error) {
       console.error('An error occurred while adding the account:', error);
@@ -23,7 +23,7 @@ export const dental = {
 
   async getAllDental(model: Common.DataGridModel): Promise<Response.IDefaultResponse> {
     try {
-      const response = await axiosInstance.post(`dental/getlistDental`, model);
+      const response = await axiosInstance.post(`Information/getlistinformation`, model);
       return response.data;
     } catch (error) {
       console.error('An error occurred while retrieving the customer:', error);
@@ -32,16 +32,7 @@ export const dental = {
   },
   async getAllDentalById(model: Dental.IDentalModel): Promise<Response.IDefaultResponse> {
     try {
-      const response = await axiosInstance.post(`dental/getDentalbyid`, model);
-      return response.data;
-    } catch (error) {
-      console.error('An error occurred while retrieving the customer:', error);
-      throw error;
-    }
-  },
-  async getDentalbytitle(model: Dental.IDentalModel): Promise<Response.IDefaultResponse> {
-    try {
-      const response = await axiosInstance.get(`dental/getDentalbytitle/${model.title}`);
+      const response = await axiosInstance.post(`Information/getinformationbyid`, model);
       return response.data;
     } catch (error) {
       console.error('An error occurred while retrieving the customer:', error);
@@ -50,7 +41,7 @@ export const dental = {
   },
   async deleteDental(model: Dental.IDentalModel): Promise<Response.IDefaultResponse> {
     try {
-      const response = await axiosInstance.post(`dental/deleteDental`, model);
+      const response = await axiosInstance.post(`Information/deleteinformation`, model);
       return response.data;
     } catch (error) {
       console.error('An error occurred while retrieving the customer:', error);

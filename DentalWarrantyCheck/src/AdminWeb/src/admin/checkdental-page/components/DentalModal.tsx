@@ -71,8 +71,8 @@ const CheckDentalModal = (
           Thêm mới
         </Button>
       </>
-    ) : !isViewForm ? (
-      <Row className="action-bottom">
+    ) : (
+      <>
         <Button onClick={onCancel}>Hủy</Button>
         <Button
           type="primary"
@@ -82,14 +82,7 @@ const CheckDentalModal = (
         >
           Cập nhật
         </Button>
-      </Row>
-    ) : (
-      <Row className="action-bottom">
-        <Button onClick={onCancel}>Đóng</Button>
-        <Button type="primary" onClick={() => setIsViewForm(false)}>
-          Chỉnh sửa
-        </Button>
-      </Row>
+      </>
     );
   };
 
@@ -98,8 +91,6 @@ const CheckDentalModal = (
       showLoading('onfinish');
       const payload: A = {
         ...val,
-        title: val.title?.trim() ?? '',
-        description: val?.description?.trim() ?? '',
         id: dataDental?.id
       };
       const { data } =
@@ -169,55 +160,67 @@ const CheckDentalModal = (
                 <Input maxLength={150} />
               </Form.Item>
             </Col>
-            <Col sm={24}>
-              <Form.Item
-                rules={[{ required: true, message: 'Vui lòng điền họ và tên khách hàng.' }]}
-                name="name"
-                label="Họ và tên"
-              >
-                <Input maxLength={150} />
-              </Form.Item>
-            </Col>
-            <Col sm={24}>
-              <Form.Item rules={[{ required: true, message: 'Vui lòng điền năm sinh' }]} name="dob" label="Năm sinh">
-                <Input maxLength={150} />
-              </Form.Item>
-            </Col>
+            <Row gutter={[8, 8]}>
+              <Col sm={24} xl={12}>
+                <Form.Item
+                  rules={[{ required: true, message: 'Vui lòng điền họ và tên khách hàng.' }]}
+                  name="name"
+                  label="Họ và tên"
+                >
+                  <Input maxLength={150} />
+                </Form.Item>
+              </Col>
+              <Col sm={24} xl={12}>
+                <Form.Item
+                  rules={[{ required: true, message: 'Vui lòng điền năm sinh' }]}
+                  name="dateOfBirth"
+                  label="Năm sinh"
+                >
+                  <Input maxLength={150} />
+                </Form.Item>
+              </Col>
+            </Row>
             <Col sm={24}>
               <Form.Item
                 rules={[{ required: true, message: 'Vui lòng điền số điện thoại' }]}
-                name="numberPhone"
+                name="phone"
                 label="Số điện thoại"
               >
                 <Input maxLength={150} />
               </Form.Item>
             </Col>
             <Col sm={24}>
-              <Form.Item name="title" label="Răng sứ">
+              <Form.Item name="teeth" label="Răng sứ">
                 <Input maxLength={150} />
               </Form.Item>
             </Col>
-            <Col sm={24}>
-              <Form.Item rules={[{ required: true, message: 'Vui lòng điền ngày làm.' }]} name="day" label="Ngày làm">
-                <Input maxLength={150} />
-              </Form.Item>
-            </Col>
-            <Col sm={24}>
-              <Form.Item
-                rules={[{ required: true, message: 'Vui lòng điền hạn sử dụng.' }]}
-                name="hsd"
-                label="Hạn sử dụng"
-              >
-                <Input maxLength={150} />
-              </Form.Item>
-            </Col>
+            <Row gutter={[8, 8]}>
+              <Col sm={24} xl={12}>
+                <Form.Item
+                  rules={[{ required: true, message: 'Vui lòng điền ngày làm.' }]}
+                  name="startDate"
+                  label="Ngày làm"
+                >
+                  <Input maxLength={150} />
+                </Form.Item>
+              </Col>
+              <Col sm={24} xl={12}>
+                <Form.Item
+                  rules={[{ required: true, message: 'Vui lòng điền hạn sử dụng.' }]}
+                  name="expiry"
+                  label="Hạn sử dụng"
+                >
+                  <Input maxLength={150} />
+                </Form.Item>
+              </Col>
+            </Row>
             <Col sm={24}>
               <Form.Item name="labo" label="Labo">
                 <Input maxLength={150} />
               </Form.Item>
             </Col>
             <Col sm={24}>
-              <Form.Item name="nguongoc" label="Nguồn gốc">
+              <Form.Item name="source" label="Nguồn gốc">
                 <Input maxLength={150} />
               </Form.Item>
             </Col>

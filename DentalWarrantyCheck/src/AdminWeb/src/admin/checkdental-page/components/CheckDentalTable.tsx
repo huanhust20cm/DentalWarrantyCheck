@@ -2,49 +2,48 @@ import { DeleteOutlined, EditOutlined, SmileOutlined } from '@ant-design/icons';
 import { Button, Popconfirm, Table, Tooltip } from 'antd';
 import type { ColumnsType } from 'antd/es/table';
 import Paragraph from 'antd/es/typography/Paragraph';
-import dayjs from 'dayjs';
 import { IPaginationProps } from '../CheckDental.model';
 import styles from './CheckDental.module.scss';
-// import MoreImage from '@/common/components/more-image/MoreImage';
 
 interface IProp {
   list: A[];
   pagination: IPaginationProps;
   setPage: (page: number) => void;
-  handleDelete: () => void;
+  handleDelete: (id: string) => void;
+  handleEdit: (record: A) => void;
 }
 
 const DentalTable = (props: IProp) => {
-  const { list, pagination, setPage, handleDelete } = props;
+  const { list, pagination, setPage, handleDelete, handleEdit } = props;
 
   const columns: ColumnsType<A> = [
     {
       title: 'Số thẻ',
-      dataIndex: 'cardNo',
-      key: 'cardNo',
+      dataIndex: 'numberCard',
+      key: 'numberCard',
       className: `tableColumns`,
       render: (_, record) => {
-        return <Paragraph className={`${styles.paragraph} cardNo`}>{record.cardNo}</Paragraph>;
+        return <Paragraph className={`${styles.paragraph} cardNo`}>{record.numberCard ?? 'N/A'}</Paragraph>;
       }
     },
     {
       title: 'Họ và tên',
-      dataIndex: 'fullname',
-      key: 'fullname',
+      dataIndex: 'name',
+      key: 'name',
       className: `tableColumns`,
       render: (_, record) => {
         return (
           <>
             <Tooltip placement="topLeft" title={<div className="customTooltip">{_}</div>} color="#ffffff" arrow={true}>
               <Paragraph className={`${styles.paragraph} fullName`} ellipsis={{ rows: 2, expandable: false }}>
-                {record.fullname}
+                {record.name ?? 'N/A'}
               </Paragraph>
             </Tooltip>
             <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
-              {dayjs(record.dateofbirth).format('DD/MM/YYYY')}
+              {record.dateOfBirth}
             </Paragraph>
             <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
-              {record.phoneNumber}
+              {record.phone}
             </Paragraph>
           </>
         );
@@ -52,17 +51,17 @@ const DentalTable = (props: IProp) => {
     },
     {
       title: 'Răng sứ',
-      dataIndex: 'Ceramictooth',
-      key: 'Ceramictooth',
+      dataIndex: 'teeth',
+      key: 'teeth',
       className: `tableColumns`,
       render: (_, record) => {
         return (
           <>
             <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
-              {record.Ceramictooth}
+              {record.teeth ?? 'N/A'}
             </Paragraph>
             <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
-              {record.color}
+              {record.color ?? 'N/A'}
             </Paragraph>
           </>
         );
@@ -75,56 +74,47 @@ const DentalTable = (props: IProp) => {
       className: `tableColumns`,
       render: (_, record) => {
         return (
-          <Tooltip
-            placement="topLeft"
-            title={<div className="customTooltip">{dayjs(record.dentalDay).format('DD/MM/YYYY')}</div>}
-            color="#ffffff"
-            arrow={true}
-          >
-            <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
-              {dayjs(record.dentalDay).format('DD/MM/YYYY')}
-            </Paragraph>
-          </Tooltip>
+          <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
+            {record.startDate ?? 'N/A'}
+          </Paragraph>
         );
       }
     },
     {
       title: 'Hạn sử dụng',
-      dataIndex: 'guarantee',
-      key: 'guarantee',
+      dataIndex: 'expiry',
+      key: 'expiry',
       className: `tableColumns`,
       render: (_, record) => {
         return (
-          <Tooltip placement="topLeft" title={<div className="customTooltip">{_}</div>} color="#ffffff" arrow={true}>
-            <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
-              {record.guarantee}
-            </Paragraph>
-          </Tooltip>
+          <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
+            {record.expiry}
+          </Paragraph>
         );
       }
     },
     {
       title: 'Labo/LAB',
-      dataIndex: 'labolab',
-      key: 'labolab',
+      dataIndex: 'labo',
+      key: 'labo',
       className: `tableColumns`,
       render: (_, record) => {
         return (
           <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
-            {record.labolab}
+            {record.labo ?? 'N/A'}
           </Paragraph>
         );
       }
     },
     {
       title: 'Nguồn gốc',
-      dataIndex: 'origin',
-      key: 'origin',
+      dataIndex: 'source',
+      key: 'source',
       className: `tableColumns`,
       render: (_, record) => {
         return (
           <Paragraph className={styles.paragraph} ellipsis={{ rows: 2, expandable: false }}>
-            {record.origin}
+            {record.origin ?? 'N/A'}
           </Paragraph>
         );
       }
@@ -142,13 +132,13 @@ const DentalTable = (props: IProp) => {
             type="text"
             icon={<EditOutlined color="#0E2554" style={{ fontSize: '18px' }} />}
             onClick={() => {
-              // handleEdit(record);
+              handleEdit(record);
             }}
           />
           <Popconfirm
             title="Delete"
-            description="Are you sure to delete this record?"
-            onConfirm={() => handleDelete()}
+            description="Bạn có muốn xóa khách hang này đi không?"
+            onConfirm={() => handleDelete(record.id)}
             onCancel={() => console.log('')}
             okText="Yes"
             cancelText="No"

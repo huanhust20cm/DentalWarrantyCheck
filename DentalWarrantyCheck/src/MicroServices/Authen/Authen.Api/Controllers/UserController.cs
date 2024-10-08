@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Authen.Api.Controllers
 {
+    [ApiController]
+    [Route("api/[Controller]")]
     public class UserController : Controller
     {
         private readonly IUserServices _authService;

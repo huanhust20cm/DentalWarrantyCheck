@@ -14,6 +14,6 @@ namespace Core.Constants
         public const string COOKIE_KEY_EMAIL = "Email";
         public const string COOKIE_KEY_TIMEOUT = "Expired";
         public const string COOKIE_KEY_ROLE = "Role";
-        public const string ConnectionString = "Data Source=AVEHN074L\\MAYTEDDYDO;Initial Catalog=Dental;Integrated Security=False;User Id=sa;Password=1qaz2wsxE;TrustServerCertificate=True;MultipleActiveResultSets=True";
+        public const string ConnectionString = "Data Source=DESKTOP-C6F5001;Initial Catalog=Dental;Integrated Security=False;User Id=sa;Password=1qaz2wsxE;TrustServerCertificate=True;MultipleActiveResultSets=True";
     }
 }
