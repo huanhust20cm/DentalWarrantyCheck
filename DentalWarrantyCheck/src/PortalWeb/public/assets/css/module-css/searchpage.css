@@ -84,8 +84,8 @@
   gap: 24px;
 }
 
-.hcis-flex {
-  align-items: center;
+.d-flex {
+  display: flex;
 }
 
 .nameCon {
@@ -182,21 +182,6 @@
   z-index: 9999;
 }
 
-.ant-collapse-header {
-  padding: 0;
-}
-
-.ant-collapse-header-text {
-  color: #0c7d8f;
-  font-size: 14px;
-  line-height: 19px;
-  font-weight: bold;
-}
-
-.ant-collapse-content-box {
-  padding: 16px 0 0;
-}
-
 .irSignatureWrap {
   width: 800px;
 }
@@ -219,15 +204,14 @@
   display: flex;
   color: #333333;
   margin-bottom: 16px;
+}
+.ComptReporttextitem .greyedOutLabel {
+  color: #aaaaaa !important;
+  background-color: #eaeff4;
+}
 
-  .greyedOutLabel {
-    color: #aaaaaa !important;
-    background-color: #eaeff4;
-  }
-
-  .greyedOutText {
-    color: #aaaaaa !important;
-  }
+.ComptReporttextitem .greyedOutText {
+  color: #aaaaaa !important;
 }
 
 .compt-reporttextitem-label {
@@ -249,4 +233,58 @@
   font-size: 0.875rem;
   padding-right: 24px;
   color: #222222;
+}
+
+.avatar img {
+  width: 50px;
+  height: 40px;
+  object-fit: contain;
+}
+.d-two-rows {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+}
+
+@media only screen and (max-width: 768px) {
+  .irSignatureWrap {
+    width: 100%;
+    margin-top: 56px;
+    margin-bottom: 0;
+    height: calc(100% - 48px);
+  }
+
+  .compt-reporttextitem-label {
+    width: 120px !important;
+  }
+
+  .compt-reporttextitem-text {
+    padding: 0 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .ant-modal-content .ant-modal-body {
+    min-height: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .bodya {
+    padding-inline: 16px;
+  }
+
+  .action-bottom {
+    padding-inline: 16px;
+  }
+  .ant-modal-root .ant-modal {
+    max-width: 100%;
+    margin: 0;
+  }
 }

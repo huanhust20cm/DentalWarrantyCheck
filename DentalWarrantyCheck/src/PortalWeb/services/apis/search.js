@@ -1,10 +1,10 @@
 import axiosInstance from "../axios-instance/index";
 
 export const dental = {
-  async getAllDental(model) {
+  async searchnumbercard(model) {
     try {
       const response = await axiosInstance.post(
-        `Information/getlistinformation`,
+        `Information/searchnumbercard`,
         model
       );
       return response.data;

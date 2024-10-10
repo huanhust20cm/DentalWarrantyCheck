@@ -4,32 +4,39 @@ import TextItem from "./TexItem";
 const ModalSearch = ({ open, setOpen, dataSearch }) => {
   return (
     <Modal open={open} closable={false} className="fullModal" footer={false}>
-      <div className="role-header-wrap">
-        {/* <img src={LogoURL} alt="Logo" /> */}
-      </div>
       <div className="irSignatureWrap">
         <div className="title">Bảng thông tin bảo hành</div>
         <div className="bodya">
-          <div className="hcis-flex">
+          <div className="d-flex">
             <div className="avatar">
-              {/* <AvatarImage microServiceName="dataSearchprofile" id={dataSearch.id ?? dataSearch.dataSearchId} /> */}
+              <img alt="Thông tin bảo hành" src="assets/images/cert.png" />
             </div>
             <div className="nameCon">
-              <div className="name hcis-two-rows">
-                {dataSearch?.name ?? dataSearch?.dataSearchName}
-              </div>
-              <div className="time">
-                {dataSearch?.age ?? dataSearch?.dataSearchAge ?? "N/A"}
-              </div>
+              <div className="name d-two-rows">{dataSearch?.name}</div>
+              <div className="time">{dataSearch?.dateOfBirth ?? "N/A"}</div>
             </div>
-            <div className="level"></div>
           </div>
           <Col>
             <Row>
-              <TextItem label="PI Start Date">A</TextItem>
-              <TextItem label="PI End Date">A</TextItem>
+              <TextItem label="Số thẻ">
+                {dataSearch?.numberCard ?? "N/A"}
+              </TextItem>
+              <TextItem label="Răng sứ">{dataSearch?.teeth ?? "N/A"}</TextItem>
             </Row>
-            <TextItem label="No. of Days on PI">A</TextItem>
+            <Row>
+              <TextItem label="Labo/LAB">{dataSearch?.labo ?? "N/A"}</TextItem>
+              <TextItem label="Nguồn gốc">
+                {dataSearch?.source ?? "N/A"}
+              </TextItem>
+            </Row>
+            <Row>
+              <TextItem label="Ngày làm">
+                {dataSearch?.dentalDay ?? "N/A"}
+              </TextItem>
+              <TextItem label="Hạn sử dụng">
+                {dataSearch?.expiry ?? "N/A"}
+              </TextItem>
+            </Row>
           </Col>
           <Row className="action-bottom">
             <Button
