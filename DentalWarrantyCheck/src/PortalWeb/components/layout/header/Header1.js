@@ -40,26 +40,6 @@ export default function Header1({
                   ></i>
                   <span style={{ color: "white" }}>Kiểm tra nguồn gốc</span>
                 </li>
-                {/* <li>
-                  <Link href="/">
-                    <i className="icon-4"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <i className="icon-5"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <i className="icon-6"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <i className="icon-7"></i>
-                  </Link>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -78,14 +58,14 @@ export default function Header1({
                   </figure>
                 </div>
                 <div className="menu-area">
-                  <div
+                  {/* <div
                     className="mobile-nav-toggler"
                     onClick={handleMobileMenu}
                   >
                     <i className="icon-bar"></i>
                     <i className="icon-bar"></i>
                     <i className="icon-bar"></i>
-                  </div>
+                  </div> */}
                   <nav className="main-menu navbar-expand-md navbar-light clearfix">
                     <div
                       className="collapse navbar-collapse show clearfix"
@@ -96,7 +76,7 @@ export default function Header1({
                   </nav>
                 </div>
                 <div className="btn-box">
-                  <Link href="/" className="theme-btn btn-one">
+                  <Link href="/tra-cuu-bao-hanh" className="theme-btn btn-one font-size-mb">
                     <span>Tra cứu bảo hành</span>
                   </Link>
                 </div>
@@ -127,7 +107,7 @@ export default function Header1({
               </nav>
               <ul className="menu-right-content">
                 <div className="btn-box">
-                  <Link href="/" className="theme-btn btn-one">
+                  <Link href="/tra-cuu-bao-hanh" className="theme-btn btn-one">
                     <span>Tra cứu bảo hành</span>
                   </Link>
                 </div>

@@ -99,7 +99,7 @@
 
 .content_block_one .content-box .list-style-one li{
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 .content_block_one .content-box h6{
@@ -432,7 +432,7 @@
 }
 
 .rtl .content_block_one .content-box .list-style-one li{
-  float: right;
+  float: left;
 }
 
 .rtl .content_block_one .content-box .lower-box .experience-box{

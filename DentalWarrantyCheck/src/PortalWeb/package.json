@@ -10,6 +10,8 @@
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },
   "dependencies": {
+    "antd": "^5.21.3",
+    "axios": "^1.7.7",
     "bootstrap-touchspin": "^4.7.3",
     "isotope-layout": "^3.0.6",
     "lightgallery": "^2.7.2",

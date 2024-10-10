@@ -15,6 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
+      <link rel="icon" href="assets/images/favicon.ico" sizes="" />
       <body>{children}</body>
     </html>
   );
