@@ -46,5 +46,11 @@ namespace Authen.Api.Controllers
         {
             return await this.Run(() => _InformationServices.GetById(model));
         }
+        [HttpPost()]
+        [Route("searchnumbercard")]
+        public async Task<BaseResponse<InformationModel>> SearchNumberCard(InformationModel model)
+        {
+            return await this.Run(() => _InformationServices.SearchNumberCard(model));
+        }
     }
 }

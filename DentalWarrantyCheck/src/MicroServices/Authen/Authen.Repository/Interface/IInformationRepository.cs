@@ -15,5 +15,6 @@ namespace Authen.Repository.Interface
         Task<BaseDataCollection<InformationEntity>> GetListInformation(DataGridModel model);
         Task<bool> UpdateInformation(InformationEntity entity);
         Task<bool> DeleteInformation(InformationEntity entity);
+        Task<InformationEntity> SearchNumberCard(InformationEntity entity);
     }
 }
