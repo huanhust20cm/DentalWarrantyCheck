@@ -15,5 +15,6 @@ namespace Authen.Services.Interface
         Task<bool> UpdateInformation(InformationModel model);
         Task<bool> DeleteInformation(InformationModel model);
         Task<InformationModel> GetById(InformationModel model);
+        Task<InformationModel> SearchNumberCard(InformationModel model);
     }
 }

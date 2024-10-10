@@ -64,5 +64,12 @@ namespace Authen.Services.Behaviours
             var update = _mapper.Map<InformationEntity, InformationModel>(result);
             return update;
         }
+        public async Task<InformationModel> SearchNumberCard(InformationModel model)
+        {
+            var entity = _mapper.Map<InformationModel, InformationEntity>(model);
+            var result = await _InformationRepository.SearchNumberCard(entity);
+            var update = _mapper.Map<InformationEntity, InformationModel>(result);
+            return update;
+        }
     }
 }

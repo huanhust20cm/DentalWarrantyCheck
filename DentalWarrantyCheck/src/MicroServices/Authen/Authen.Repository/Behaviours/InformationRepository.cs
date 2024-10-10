@@ -69,5 +69,13 @@ namespace Authen.Repository.Behaviours
                 return result;
             }
         }
+        public async Task<InformationEntity> SearchNumberCard(InformationEntity entity)
+        {
+            using (var method= base.context)
+            {
+                var Information = await method.Informations.AsNoTracking().Where(i => !i.Delete && entity.NumberCard == i.NumberCard && entity.DateOfBirth == i.DateOfBirth).FirstOrDefaultAsync();
+                return Information;
+            }
+        }
     }
 }
