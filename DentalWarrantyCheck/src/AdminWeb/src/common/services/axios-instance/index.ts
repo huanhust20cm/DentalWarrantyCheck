@@ -2,7 +2,7 @@ import { cookie } from '@/common/helpers/cookie/cookie';
 import { Modal } from 'antd';
 import axios from 'axios';
 
-const apiUrl = 'https://localhost:7213/api';
+const apiUrl = 'http://laviedental.vn:8080/api';
 const user: A = cookie.getCookie('userLogin') ?? '{}';
 const token = JSON.parse(user)?.token ?? '';
 const source = axios.CancelToken.source();
