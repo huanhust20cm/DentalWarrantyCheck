@@ -31,15 +31,12 @@ export default function Banner() {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 col-sm-12 content-column">
             <div className="content-box">
-              <span className="upper-text">
-                Highest level of service you can find
-              </span>
               <h2>
-                Take <span>Care of Your</span> Health Now.
+                Răng sứ <span>CERCONIA</span> CERCONIA.
               </h2>
               <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+                Cứng nhất thế giới, chế độ bảo hành chính hãng lên đến 10 năm.
+                Độ cứng gấp 10 lần răng thật, độ trong mờ lên đến 49%
               </p>
               <div className="btn-box">
                 <Link href="/tra-cuu-bao-hanh" className="theme-btn btn-two">
@@ -51,7 +48,7 @@ export default function Banner() {
           <div className="col-lg-6 col-md-12 col-sm-12 image-column">
             <div className="image-box">
               <figure className="image float-bob-y">
-                <img src="assets/images/banner/banner-img-1.png" alt="" />
+                <img src="assets/images/banner/banner2.png" alt="" />
               </figure>
             </div>
           </div>

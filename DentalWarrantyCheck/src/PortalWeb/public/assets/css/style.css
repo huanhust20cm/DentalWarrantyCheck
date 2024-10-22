@@ -785,7 +785,7 @@ img {
   display: block;
   font-size: 50px;
   line-height: 65px;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0px;
   text-transform: capitalize;
 }
@@ -972,6 +972,16 @@ img {
 .main-header .logo-box {
   position: relative;
   padding: 26px 0px;
+}
+
+.main-header .logo-box img {
+  display: inline-block;
+  max-width: 100%;
+  height: 3rem;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.7s;
+  transition-property: all;
 }
 
 .main-header .theme-btn span {
@@ -2573,7 +2583,7 @@ button.ltr {
     width: 100%;
   }
   .main-header .theme-btn span {
-    padding: 5px 22px ;
+    padding: 5px 22px;
     font-size: 13px;
   }
 }

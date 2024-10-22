@@ -1,45 +1,103 @@
-import React from 'react';
-import Link from "next/link"
+import React from "react";
+import Link from "next/link";
 export default function Team() {
   const teamMembers = [
-    { name: 'Black Marvin', role: 'Medical Assistant', image: 'assets/images/team/team-1.jpg' },
-    { name: 'Eleanor Pena', role: 'Doctor', image: 'assets/images/team/team-2.jpg' },
-    { name: 'Arlene Maccy', role: 'Nursing Assistant', image: 'assets/images/team/team-3.jpg' },
-    { name: 'Jenny Wilson', role: 'Senior Doctor', image: 'assets/images/team/team-4.jpg' },
+    {
+      id: 1,
+      name: "Duy nhất: Miễn phí thiết kế nụ cười Digital Smile Design",
+      role: "Là công nghệ chophép tạo hình nụ cười một cách toàn diện, từ hình thể của răng đến màu sắc răng, tương quan giữa răng - xương hàm - môi và nướu. ",
+      image: "assets/images/team/01.jpg",
+    },
+    {
+      id: 2,
+      name: "Duy nhất: Tặng bộ chăm sóc răng miệng 5.000.000 VNĐ",
+      role: "Cho khách hàng khibọc răng sứ Cerconia. Bên cạnh đó, khách hàng sẽ được miễn phí chăm sóc răng miệng cho cả gia đình trong 3 năm. ",
+      image: "assets/images/team/02.jpg",
+    },
+    {
+      id: 3,
+      name: "Duy nhất: Thẻ bảo hành răng sứ Cerconia chính hãng 10 năm từ nhà sản xuất",
+      role: "Đảm bảo quyền lợi cho khách hàng trong trường hợp gặp sự cố với mão sứ do lỗikỹ thuật trong quá trình thực hiện hoặc chất lượng sản phẩm. Khi đó, khách hàng có thể đến trực tiếp nha khoa để được bác sĩ kiểm tra và hỗ trợ đổi răng miễn phí.",
+      image: "assets/images/team/03.jpg",
+    },
+    {
+      id: 4,
+      name: "Duy nhất: Miễn phí thăm khám",
+      role: "với bác sĩ chuyên khoa Răng - Hàm - Mặt trên 10 năm kinh nghiệm giúp bạn được gặp gỡ và trò chuyện với Bác sĩ để thảo luận về tình trạng răng miệng và nhận được sự tư vấn chuyên nghiệp.",
+      image: "assets/images/team/04.jpg",
+    },
   ];
 
   return (
     <section className="team-section sec-pad centred">
       <div className="pattern-layer">
-        <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-13.png)' }}></div>
-        <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-14.png)' }}></div>
+        <div
+          className="pattern-1"
+          style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}
+        ></div>
+        <div
+          className="pattern-2"
+          style={{ backgroundImage: "url(assets/images/shape/shape-14.png)" }}
+        ></div>
       </div>
       <div className="shape">
-        <div className="shape-1 float-bob-y" style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}></div>
+        <div
+          className="shape-1 float-bob-y"
+          style={{ backgroundImage: "url(assets/images/shape/shape-15.png)" }}
+        ></div>
         <div className="shape-2"></div>
-        <div className="shape-3 float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-16.png)' }}></div>
+        <div
+          className="shape-3 float-bob-x"
+          style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}
+        ></div>
       </div>
       <div className="auto-container">
         <div className="sec-title mb_50">
-          <span className="sub-title">Our Team</span>
-          <h2>Meet our experienced doctors <br />for the best treatment</h2>
+          <h2 className="sub-title">Quyền lợi khách hàng</h2>
         </div>
         <div className="row clearfix">
           {teamMembers.map((member, index) => (
-            <div key={index} className="col-lg-3 col-md-6 col-sm-12 team-block">
-              <div className="team-block-one wow fadeInUp animated" data-wow-delay={`${index * 200}ms`} data-wow-duration="1500ms">
+            <div
+              key={member.id}
+              className="col-lg-3 col-md-6 col-sm-12 team-block"
+            >
+              <div
+                className="team-block-one wow fadeInUp animated"
+                data-wow-delay={`${index * 200}ms`}
+                data-wow-duration="1500ms"
+              >
                 <div className="inner-box">
                   <div className="image-box">
-                    <figure className="image"><img src={member.image} alt={`${member.name}'s photo`} /></figure>
+                    <figure className="image">
+                      <img src={member.image} alt={`${member.name}'s photo`} />
+                    </figure>
                     <ul className="social-links clearfix">
-                      <li><Link href="/#"><i className="icon-4"></i></Link></li>
-                      <li><Link href="/#"><i className="icon-5"></i></Link></li>
-                      <li><Link href="/#"><i className="icon-6"></i></Link></li>
-                      <li><Link href="/#"><i className="icon-7"></i></Link></li>
+                      <li>
+                        <Link href="/#">
+                          <i className="icon-4"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/#">
+                          <i className="icon-5"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/#">
+                          <i className="icon-6"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/#">
+                          <i className="icon-7"></i>
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                   <div className="lower-content">
-                    <h3><Link href="team-details">{member.name}</Link></h3>
+                    <h3>
+                      <Link href="team-details">{member.name}</Link>
+                    </h3>
                     <span className="designation">{member.role}</span>
                   </div>
                 </div>
@@ -50,5 +108,4 @@ export default function Team() {
       </div>
     </section>
   );
-};
-
+}

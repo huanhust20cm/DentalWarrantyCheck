@@ -21,7 +21,7 @@
 
 .image_block_one .image-box .image img{
   width: 100%;
-  border-radius: 300px 0px 300px 300px;
+  /* border-radius: 300px 0px 300px 300px; */
 }
 
 .image_block_one .image-box .icon-one{

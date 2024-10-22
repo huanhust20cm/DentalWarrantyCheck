@@ -1,7 +1,7 @@
 
 'use client'
-import { useEffect, useState } from "react";
 import dynamic from 'next/dynamic';
+import { useEffect, useState } from "react";
 
 // Dynamic import for the WOW library
 const WOW = dynamic(() => import('wowjs/dist/wow'));
