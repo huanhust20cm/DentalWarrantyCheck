@@ -18,27 +18,17 @@ export default function Header2({
           scroll ? "fixed-header" : ""
         }`}
       >
-        {/* Header Top */}
-
-        {/* Header Upper */}
         <div className="header-lower">
           <div className="outer-container">
             <div className="outer-box">
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/">
-                    <img src="assets/images/logo.png" alt="" />
+                    <img src="assets/images/logo-2.png" alt="" />
                   </Link>
                 </figure>
               </div>
               <div className="menu-area">
-                {/* Mobile Navigation Toggler */}
-                {/* <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
-                  <i className="icon-bar"></i>
-                  <i className="icon-bar"></i>
-                  <i className="icon-bar"></i>
-                </div> */}
-                {/* Main Menu */}
                 <nav className="main-menu navbar-expand-md navbar-light clearfix">
                   <div
                     className="collapse navbar-collapse show clearfix"
@@ -48,15 +38,6 @@ export default function Header2({
                   </div>
                 </nav>
               </div>
-              {/* Menu Right Content */}
-              <ul className="menu-right-content">
-                <li
-                  className="nav-btn nav-toggler navSidebar-button clearfix"
-                  onClick={handleSidebar}
-                >
-                  <i className="icon-28"></i>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -68,7 +49,7 @@ export default function Header2({
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/">
-                    <img src="assets/images/logo.png" alt="" />
+                    <img src="assets/images/logo-2.png" alt="" />
                   </Link>
                 </figure>
               </div>
@@ -81,19 +62,9 @@ export default function Header2({
                   <Menu />
                 </div>
               </nav>
-              <ul className="menu-right-content">
-                <li
-                  className="nav-btn nav-toggler navSidebar-button clearfix"
-                  onClick={handleSidebar}
-                >
-                  <i className="icon-28"></i>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
-        {/* End Sticky Menu */}
-        {/* Mobile Menu  */}
 
         <MobileMenu handleMobileMenu={handleMobileMenu} />
       </header>

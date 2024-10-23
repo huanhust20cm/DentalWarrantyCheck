@@ -53,12 +53,10 @@ export default function about() {
             <div className="content_block_one">
               <div className="content-box">
                 <div className="sec-title">
-                  <span className="sub-title">Cerconia</span>
+                  <span className="sub-title">THÔNG SỐ SẢN PHẨM</span>
                 </div>
                 <div className="text-box mb_40">
-                  <h6>
-                    Xuất xứ: Từ Đức, được sản xuất bởi tập đoàn Densply Sironia
-                  </h6>
+                  <h6>Cerconia - Kiệt tác DÒNG SỨ ĐIÊU KHẮC VỚI SỰ HOÀN MỸ</h6>
                   <ul className="list-style-one clearfix">
                     <li>Độ cứng: 750 - 1200 MPa</li>
                     <li>Độ bền uốn: 1200 Mpa</li>
@@ -72,11 +70,6 @@ export default function about() {
                     </li>
                     <li>Chế độ bảo hành: 10 năm</li>
                   </ul>
-                </div>
-                <div className="btn-box">
-                  <Link href="/#" className="theme-btn btn-one">
-                    <span>Discover More</span>
-                  </Link>
                 </div>
               </div>
             </div>

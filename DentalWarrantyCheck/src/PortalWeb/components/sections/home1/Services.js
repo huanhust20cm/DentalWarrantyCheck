@@ -22,8 +22,8 @@ export default function service() {
                       <img src="assets/images/service/02.jpg" alt="" />
                     </Link>
                   </figure>
-                  <div className="icon-box">
-                    <i className="icon-15"></i>
+                  <div className="icon-box img-box">
+                    <img src="assets/images/icons/whychoose.png" alt="" />
                   </div>
                 </div>
                 <div className="lower-content">
@@ -54,8 +54,8 @@ export default function service() {
                       <img src="assets/images/service/1.jpg" alt="" />
                     </Link>
                   </figure>
-                  <div className="icon-box">
-                    <i className="icon-16"></i>
+                  <div className="icon-box img-box">
+                    <img src="assets/images/icons/whychoose4.png" alt="" />
                   </div>
                 </div>
                 <div className="lower-content">
@@ -87,8 +87,8 @@ export default function service() {
                       <img src="assets/images/service/3.jpg" alt="" />
                     </Link>
                   </figure>
-                  <div className="icon-box">
-                    <i className="icon-17"></i>
+                  <div className="icon-box img-box">
+                    <img src="assets/images/icons/whychoose2.png" alt="" />
                   </div>
                 </div>
                 <div className="lower-content">

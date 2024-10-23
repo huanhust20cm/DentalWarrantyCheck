@@ -1,11 +1,10 @@
-
 export default function chooseus() {
   return (
     <section className="chooseus-section">
       <div
         className="bg-layer"
         style={{
-          backgroundImage: "url(assets/images/background/chooseus-bg.jpg)",
+          backgroundImage: "url(assets/images/background/whychoose.jpg)",
         }}
       ></div>
       <div
@@ -28,7 +27,7 @@ export default function chooseus() {
                   <div className="chooseus-block-one">
                     <div className="inner-box">
                       <div className="icon-box">
-                        <i className="icon-18"></i>
+                        <img src="assets/images/icons/whychoose.png" alt="" />
                       </div>
                       <h3>Thẩm mỹ hoàn hảo</h3>
                       <p>
@@ -42,7 +41,7 @@ export default function chooseus() {
                   <div className="chooseus-block-one">
                     <div className="inner-box">
                       <div className="icon-box">
-                        <i className="icon-21"></i>
+                        <img src="assets/images/icons/whychoose3.png" alt="" />
                       </div>
                       <h3>Bền bỉ vượt trội</h3>
                       <p>
@@ -56,7 +55,7 @@ export default function chooseus() {
                   <div className="chooseus-block-one">
                     <div className="inner-box">
                       <div className="icon-box">
-                        <i className="icon-19"></i>
+                        <img src="assets/images/icons/whychoose4.png" alt="" />
                       </div>
                       <h3>Bảo tồn răng thật</h3>
                       <p>
@@ -70,7 +69,7 @@ export default function chooseus() {
                   <div className="chooseus-block-one">
                     <div className="inner-box">
                       <div className="icon-box">
-                        <i className="icon-20"></i>
+                        <img src="assets/images/icons/whychoose2.png" alt="" />
                       </div>
                       <h3>Hoàn toàn lành tính</h3>
                       <p>

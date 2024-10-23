@@ -20,11 +20,7 @@ export default function Process() {
       </div>
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
-          <span className="sub-title">Process</span>
-          <h2>
-            How it Helps You to <br />
-            Keep Healthy
-          </h2>
+          <span className="sub-title">Quy trình bọc răng sứ Cerconia </span>
         </div>
         <div className="inner-container">
           <div

@@ -5,11 +5,9 @@ export default function News() {
     <section className="news-section sec-pad bg-color-1">
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
-          <span className="sub-title">Our Blog</span>
-          <h2>
-            Take a look at our most <br />
-            recent articles
-          </h2>
+          <span className="sub-title">
+            Vì sao nên chọn thẩm mỹ răng sứ Cerconia
+          </span>
         </div>
         <div className="row clearfix">
           <div className="col-lg-4 col-md-6 col-sm-12 news-block">

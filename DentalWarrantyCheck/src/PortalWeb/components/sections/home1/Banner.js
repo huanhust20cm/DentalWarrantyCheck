@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <section className="banner-section p_relative">
       <div
-        className="pattern-layer wow slideInDown animated"
+        className="pattern-layer wow slideInDown "
         data-wow-delay="00ms"
         data-wow-duration="1500ms"
         style={{ backgroundImage: "url(assets/images/shape/shape-1.png)" }}
@@ -13,10 +13,6 @@ export default function Banner() {
         <div
           className="shape-1"
           style={{ backgroundImage: "url(assets/images/shape/shape-2.png)" }}
-        ></div>
-        <div
-          className="shape-2 float-bob-x"
-          style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}
         ></div>
         <div
           className="shape-3"
@@ -31,9 +27,7 @@ export default function Banner() {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 col-sm-12 content-column">
             <div className="content-box">
-              <h2>
-                Răng sứ <span>CERCONIA</span> CERCONIA.
-              </h2>
+              <h2>Răng sứ CERCONIA.</h2>
               <p>
                 Cứng nhất thế giới, chế độ bảo hành chính hãng lên đến 10 năm.
                 Độ cứng gấp 10 lần răng thật, độ trong mờ lên đến 49%
