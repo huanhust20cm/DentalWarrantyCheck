@@ -20,7 +20,14 @@ export default function Header2({
       >
         <div className="header-lower">
           <div className="outer-container">
-            <div className="outer-box">
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              className="outer-box"
+            >
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/">

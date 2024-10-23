@@ -89,7 +89,8 @@
 
 .team-block-one .inner-box .lower-content {
   padding: 30px 15px;
-  min-height: 34rem;
+  min-height: 25rem;
+  text-align: left;
 }
 
 .team-block-one .inner-box .lower-content h3 {
@@ -112,6 +113,7 @@
 .team-block-one .inner-box .lower-content .designation {
   position: relative;
   display: block;
+  text-align: justify;
 }
 
 .team-section .pattern-layer .pattern-1 {

@@ -16,7 +16,7 @@ export default function Footer2() {
           <div className="row clearfix">
                           <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div className="footer-widget logo-widget">
-                                <figure className="footer-logo"><Link href="/"><img src="assets/images/footer-logo.png" alt="" /></Link></figure>
+                                <figure className="footer-logo"><Link href="/"><img src="assets/images/logo-2.png" alt="" /></Link></figure>
                                 <p>Lorem ipsum dolor sit amet constetur adipiscing elit. Etiam eu turpis mostie dictum est a, mattis tellus.</p>
                                 <ul className="social-links clearfix">
                                     <li><Link href="/"><i className="icon-4"></i></Link></li>

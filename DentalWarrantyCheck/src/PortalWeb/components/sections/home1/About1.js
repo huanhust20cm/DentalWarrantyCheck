@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function About1() {
   return (
@@ -36,17 +37,24 @@ export default function About1() {
                 <div className="text-box mb_40">
                   <ul className="list-style-one clearfix">
                     <li>
-                      Phục hình Cercon được sản xuất bằng vật liệu chính hãng
-                      nhập khẩu bởi Công ty TNHH Dentsply Sirona Việt Nam
+                      Phục hình Cerconia được sản xuất bằng vật liệu chính hãng
+                      nhập khẩu bởi Công ty TNHH Dentsply Sirona Việt Nam.
                     </li>
                     <li>
-                      Khách hàng sử dụng phục hình Cercon đúng với hướng dẫn của
-                      bác sĩ điều trị
+                      Khách hàng sử dụng phục hình Cerconia đúng với hướng dẫn
+                      của bác sĩ điều trị.
                     </li>
                     <li>
                       Bác sĩ điều trị và Labo nha khoa chịu trách nhiệm thực
-                      hiện và bảo hành 10 năm (*) để đảm báo tính thẩm mỹ, chức
-                      năng của phục hình
+                      hiện và bảo hành 10 năm (*) để đảm bảo tính thẩm mỹ, chức
+                      năng của phục hình.
+                    </li>
+                    <li>
+                      (*) Theo nghiên cứu công bố trên tạp chí nha khoa vào năm
+                      2018 đính kèm{" "}
+                      <Link href="https://dentsplysirona.com.vn/nicEditor/nicImages/10-year%20randomized%20trial%20(RCT).pdf">
+                        tại đây.
+                      </Link>
                     </li>
                   </ul>
                 </div>

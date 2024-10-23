@@ -6,7 +6,8 @@ export default function service() {
     <section className="service-section sec-pad">
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
-          <h2>Răng sứ Cerconia: Mỏng nhẹ - Bền đẹp - An toàn tuyệt đối</h2>
+          <span className="sub-title">CÂU CHUYỆN SẢN PHẨM</span>
+          <h2>Cerconia: Mỏng Nhẹ - Bền Đẹp - An Toàn Tuyệt Đối </h2>
         </div>
         <div className="row clearfix">
           <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -28,7 +29,7 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="/">Răng sứ Cerconia</Link>
+                    <Link href="/">Cam kết nguồn gốc rõ ràng</Link>
                   </h3>
                   <p>
                     Thuộc dòng răng toàn sứ và được cấu tạo gồm hai phần, trong
@@ -60,7 +61,7 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="/">Răng sứ Cerconia</Link>
+                    <Link href="/">Quy trình sản xuất hiện đại</Link>
                   </h3>
                   <p>
                     Được chế tác bằng công nghệ CAD/CAM hiện đại nhất hiện nay.
@@ -93,7 +94,7 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details">Răng sứ Cerconia</Link>
+                    <Link href="service-details">Trắng sáng với thời gian</Link>
                   </h3>
                   <p>
                     Là một dòng răng sứ vừa đảm bảo độ cứng vượt trội với độ

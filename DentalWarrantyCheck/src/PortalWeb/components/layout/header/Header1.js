@@ -19,8 +19,7 @@ export default function Header1({
           <div className="top-inner">
             <ul className="info-list clearfix"></ul>
             <ul className="social-links clearfix">
-              <li>
-              </li>
+              <li></li>
             </ul>
           </div>
         </div>

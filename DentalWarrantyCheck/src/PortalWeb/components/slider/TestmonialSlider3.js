@@ -60,80 +60,12 @@ export default function TestimonialSlider3() {
       >
         <SwiperSlide className="slide-item p_20">
           <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box">
-                <i className="icon-23"></i>
-              </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia coequat duis enim velit mollit.
-              </p>
-            </div>
+            <img src="assets/images/banner/smartcard.png" alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="slide-item p_20">
           <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box">
-                <i className="icon-23"></i>
-              </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia coequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slide-item p_20">
-          <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box">
-                <i className="icon-23"></i>
-              </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia coequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slide-item p_20">
-          <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box">
-                <i className="icon-23"></i>
-              </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia coequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slide-item p_20">
-          <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box">
-                <i className="icon-23"></i>
-              </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia coequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slide-item p_20">
-          <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box">
-                <i className="icon-23"></i>
-              </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia coequat duis enim velit mollit.
-              </p>
-            </div>
+            <img src="assets/images/banner/smartcard2.png" alt="" />
           </div>
         </SwiperSlide>
       </Swiper>

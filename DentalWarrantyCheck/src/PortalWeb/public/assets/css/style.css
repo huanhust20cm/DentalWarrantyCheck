@@ -482,7 +482,7 @@ img {
 }
 
 .theme-btn.btn-two {
-  background: var(--secondary-color);
+  background: #25a656;
 }
 
 .theme-btn.btn-two:hover,
@@ -870,7 +870,7 @@ img {
 .header-top {
   position: relative;
   width: 100%;
-  background: #0e1136;
+  background: #11529e;
   padding: 15.5px 0px;
 }
 
@@ -1974,7 +1974,7 @@ button.ltr {
 
 .main-footer {
   position: relative;
-  background: #0e1136;
+  background: #0a4191;
 }
 
 .main-footer .widget-section {
@@ -2110,7 +2110,7 @@ button.ltr {
   background-repeat: no-repeat;
 }
 
-.main-footer .pattern-layer .pattern-4 {
+/* .main-footer .pattern-layer .pattern-4 {
   position: absolute;
   left: -300px;
   bottom: -223px;
@@ -2120,7 +2120,7 @@ button.ltr {
   border-radius: 50%;
   -webkit-animation: zoom-fade 8s infinite linear;
   animation: zoom-fade 8s infinite linear;
-}
+} */
 
 /** xs-sidebar **/
 

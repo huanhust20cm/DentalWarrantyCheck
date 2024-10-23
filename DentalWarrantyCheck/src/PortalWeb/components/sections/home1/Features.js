@@ -25,7 +25,7 @@ export default function feature() {
                   <img src="assets/images/icons/02.png" alt="" />
                 </div>
                 <h3>
-                  <Link href="/">100% Bác sĩ giàu kinh nghiệm thực hiện</Link>
+                  <Link href="/">Trắng, trong, bền đẹp trọn đời</Link>
                 </h3>
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function feature() {
                   <img src="assets/images/icons/03.png" alt="" />
                 </div>
                 <h3>
-                  <Link href="/">Hội chuẩn đánh giá chuyên môn</Link>
+                  <Link href="/">Không đau, không viêm sau làm</Link>
                 </h3>
               </div>
             </div>
@@ -49,7 +49,7 @@ export default function feature() {
                   <img src="assets/images/icons/04.png" alt="" />
                 </div>
                 <h3>
-                  <Link href="/">Quy trình an toàn không đau</Link>
+                  <Link href="/">Bảo tồn tối đa cùi răng </Link>
                 </h3>
               </div>
             </div>

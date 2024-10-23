@@ -288,3 +288,24 @@
     margin: 0;
   }
 }
+.process-section-block {
+  display: flex;
+}
+
+.process-section-block-one {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.process-section-block-one img {
+  border-radius: 15px;
+  width: 80%;
+}
+
+@media only screen and (max-width: 767px) {
+  .process-section-block {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

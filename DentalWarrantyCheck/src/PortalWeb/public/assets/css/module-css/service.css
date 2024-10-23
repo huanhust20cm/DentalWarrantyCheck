@@ -81,7 +81,7 @@
   border-radius: 0px 0px 20px 20px;
   padding: 40px;
   transition: all 500ms ease;
-  min-height: 27rem;
+  min-height: 29rem;
 }
 
 .service-block-one .inner-box:hover .lower-content {

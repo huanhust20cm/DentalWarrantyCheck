@@ -17,7 +17,7 @@ export default function Team() {
     {
       id: 3,
       name: "Duy nhất: Thẻ bảo hành răng sứ Cerconia chính hãng 10 năm từ nhà sản xuất",
-      role: "Đảm bảo quyền lợi cho khách hàng trong trường hợp gặp sự cố với mão sứ do lỗikỹ thuật trong quá trình thực hiện hoặc chất lượng sản phẩm. Khi đó, khách hàng có thể đến trực tiếp nha khoa để được bác sĩ kiểm tra và hỗ trợ đổi răng miễn phí.",
+      role: "Đảm bảo quyền lợi cho khách hàng trong trường hợp gặp sự cố với mão sứ do lỗikỹ thuật trong quá trình thực hiện hoặc chất lượng sản phẩm.",
       image: "assets/images/team/03.jpg",
     },
     {
@@ -53,7 +53,9 @@ export default function Team() {
       </div>
       <div className="auto-container">
         <div className="sec-title mb_50">
-          <h2 className="sub-title">Quyền lợi khách hàng</h2>
+          <h2 style={{ fontSize: 24 }} className="sub-title">
+            QUYỀN LỢI KHÁCH HÀNG
+          </h2>
         </div>
         <div className="row clearfix">
           {teamMembers.map((member, index) => (
@@ -71,28 +73,6 @@ export default function Team() {
                     <figure className="image">
                       <img src={member.image} alt={`${member.name}'s photo`} />
                     </figure>
-                    <ul className="social-links clearfix">
-                      <li>
-                        <Link href="/#">
-                          <i className="icon-4"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/#">
-                          <i className="icon-5"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/#">
-                          <i className="icon-6"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/#">
-                          <i className="icon-7"></i>
-                        </Link>
-                      </li>
-                    </ul>
                   </div>
                   <div className="lower-content">
                     <h3>

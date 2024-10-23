@@ -9,29 +9,30 @@ export default function subscribe() {
             <div className="col-lg-6 col-md-12 col-sm-12 text-column">
               <div className="text-box">
                 <h2>
-                  <span>Subscribe</span> for the exclusive updates!
+                  <span>Tra cứu</span> bảo hành răng sứ Cerconia
                 </h2>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 form-column">
               <div className="form-inner">
-                <form method="post" action="contact">
+                <form method="post">
                   <div className="form-group">
                     <input
-                      type="email"
+                      type="input"
                       name="email"
-                      placeholder="Enter Your Email Address"
+                      placeholder="Mã số thẻ"
                       required
                     />
                     <button type="submit" className="theme-btn btn-one">
-                      <span>Subscribe Now</span>
+                      <span>Tra cứu bảo hành</span>
                     </button>
                   </div>
                   <div className="form-group">
                     <div className="check-box">
                       <input className="check" type="checkbox" id="checkbox1" />
                       <label htmlFor="checkbox1">
-                        I agree to the <Link href="/#">Privacy Policy.</Link>
+                        Tôi đồng ý với{" "}
+                        <Link href="/#">chính sách bảo mật.</Link>
                       </label>
                     </div>
                   </div>

@@ -20,7 +20,7 @@ export default function Process() {
       </div>
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
-          <span className="sub-title">Quy trình bọc răng sứ Cerconia </span>
+          <span className="sub-title">QUY TRÌNH BỌC RĂNG SỨ CERCONIA</span>
         </div>
         <div className="inner-container">
           <div
@@ -38,7 +38,7 @@ export default function Process() {
                 <img src="assets/images/resource/B1.jpg" alt="" />
               </figure>
               <div className="lower-content">
-                <p>
+                <p style={{ textAlign: "justify" }}>
                   Thăm khám, chụp phim CT Cone Beam kết hợp trí tuệ nhân tạo AI
                   để hỗ trợ chẩn đoán và lên kế hoạch điều trị chính xác.
                 </p>
@@ -56,7 +56,7 @@ export default function Process() {
                 <img src="assets/images/resource/B2.jpg" alt="" />
               </figure>
               <div className="lower-content">
-                <p>
+                <p style={{ textAlign: "justify" }}>
                   Thiết kế nụ cười hoàn mỹ bằng phần mềm DSD 3D, đáp ứng tiêu
                   chí về tỉ lệ vàng khuôn mặt, form dáng răng theo nhân tướng
                   học.
@@ -75,7 +75,7 @@ export default function Process() {
                 <img src="assets/images/resource/B3.jpg" alt="" />
               </figure>
               <div className="lower-content">
-                <p>
+                <p style={{ textAlign: "justify" }}>
                   Vệ sinh răng, khoang miệng, đảm bảo ngăn chặn các tác nhân có
                   thể gây viêm nhiễm và lấy dấu răng tạm.
                 </p>
@@ -99,7 +99,7 @@ export default function Process() {
                 <img src="assets/images/resource/B4.jpg" alt="" />
               </figure>
               <div className="lower-content">
-                <p>
+                <p style={{ textAlign: "justify" }}>
                   Thăm khám, chụp phim CT Cone Beam kết hợp trí tuệ nhân tạo AI
                   để hỗ trợ chẩn đoán và lên kế hoạch điều trị chính xác.
                 </p>
@@ -117,7 +117,7 @@ export default function Process() {
                 <img src="assets/images/resource/B5.jpg" alt="" />
               </figure>
               <div className="lower-content">
-                <p>
+                <p style={{ textAlign: "justify" }}>
                   Thiết kế nụ cười hoàn mỹ bằng phần mềm DSD 3D, đáp ứng tiêu
                   chí về tỉ lệ vàng khuôn mặt, form dáng răng theo nhân tướng
                   học.
@@ -136,7 +136,7 @@ export default function Process() {
                 <img src="assets/images/resource/B6.jpg" alt="" />
               </figure>
               <div className="lower-content">
-                <p>
+                <p style={{ textAlign: "justify" }}>
                   Vệ sinh răng, khoang miệng, đảm bảo ngăn chặn các tác nhân có
                   thể gây viêm nhiễm và lấy dấu răng tạm.
                 </p>

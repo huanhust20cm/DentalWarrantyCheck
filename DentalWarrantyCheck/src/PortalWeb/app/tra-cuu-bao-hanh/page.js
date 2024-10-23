@@ -2,7 +2,6 @@
 import Layout from "@/components/layout/Layout";
 import ModalSearch from "@/components/modal/modalSearch";
 import About1 from "@/components/sections/home1/About1";
-import TestimonialSlider3 from "@/components/slider/TestmonialSlider3";
 import service from "@/services/apis";
 import { Button, Form, Input, Spin } from "antd";
 import { useState } from "react";
@@ -38,7 +37,14 @@ export default function Home() {
       >
         <ModalSearch open={isOpen} setOpen={setOpen} dataSearch={dataSearch} />
         <section className="process-section sec-pad bg-color-1">
-          <TestimonialSlider3 />
+          <div className="process-section-block">
+            <div className="process-section-block-one">
+              <img src="assets/images/banner/smartcard.png" alt="" />
+            </div>
+            <div className="process-section-block-one">
+              <img src="assets/images/banner/smartcard2.png" alt="" />
+            </div>
+          </div>
           <div className="align-2 flexbox_1 p_20 mwp_100">
             <div className="align-2 flexbox_1 p_20 wp_50 wpmb_100">
               <Form
@@ -76,6 +82,7 @@ export default function Home() {
                 </Form.Item>
               </Form>
               <Button
+                style={{ height: "3rem" }}
                 className="theme-btn btn-one"
                 onClick={() => {
                   form.submit();
@@ -85,6 +92,7 @@ export default function Home() {
               </Button>
               {dataSearch && (
                 <Button
+                  style={{ height: "3rem" }}
                   className="theme-btn btn-two"
                   onClick={() => setOpen(true)}
                 >
@@ -166,12 +174,6 @@ export default function Home() {
                       </h3>
                     </div>
                     <div className="text-box mb_40">
-                      {/* <p>
-                        Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor do amet sint. Velit officia consequat duis enim
-                        velit mollit. Exercitation veniam consequat sunt nostrud
-                        amet.
-                      </p> */}
                       <ul className="list-style-one clearfix">
                         <li>
                           Sau khi gắn phục hình bạn cần thời gian để quen với
@@ -180,8 +182,8 @@ export default function Home() {
                         </li>
                         <li>
                           Cũng như răng thật bạn nên bảo vệ phục hình bằng cách
-                          không dùng răng cắn hoặc nhai thức ăn quá cứng (xương,
-                          nước đá…). Bạn nên tránh dùng thức ăn quá nóng hay quá
+                          không dùng răng cắn hoặc thức ăn quá cứng (xương, nước
+                          đá...). Bạn nên tránh dùng thức ăn quá nóng hay quá
                           lạnh. Súc miệng bằng nước muối ấm có thể mang lại cảm
                           giác dễ chịu hơn.
                         </li>
