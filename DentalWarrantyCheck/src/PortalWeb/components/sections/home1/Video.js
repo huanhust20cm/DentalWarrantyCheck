@@ -10,7 +10,7 @@ export default function Video() {
           className="bg-layer parallax-bg"
           data-parallax='{"y": 100}'
           style={{
-            backgroundImage: "url(assets/images/background/video-bg.jpg)",
+            backgroundImage: "url(assets/images/resource/video.jpg)",
           }}
         ></div>
         <figure className="image-layer">

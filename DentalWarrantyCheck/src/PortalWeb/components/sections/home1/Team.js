@@ -23,7 +23,7 @@ export default function Team() {
     {
       id: 4,
       name: "Duy nhất: Miễn phí thăm khám",
-      role: "với bác sĩ chuyên khoa Răng - Hàm - Mặt trên 10 năm kinh nghiệm giúp bạn được gặp gỡ và trò chuyện với Bác sĩ để thảo luận về tình trạng răng miệng và nhận được sự tư vấn chuyên nghiệp.",
+      role: "Với bác sĩ chuyên khoa Răng - Hàm - Mặt trên 10 năm kinh nghiệm giúp bạn được gặp gỡ và trò chuyện với Bác sĩ để thảo luận về tình trạng răng miệng và nhận được sự tư vấn chuyên nghiệp.",
       image: "assets/images/team/04.jpg",
     },
   ];

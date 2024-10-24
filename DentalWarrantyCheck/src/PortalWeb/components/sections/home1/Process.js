@@ -100,8 +100,8 @@ export default function Process() {
               </figure>
               <div className="lower-content">
                 <p style={{ textAlign: "justify" }}>
-                  Thăm khám, chụp phim CT Cone Beam kết hợp trí tuệ nhân tạo AI
-                  để hỗ trợ chẩn đoán và lên kế hoạch điều trị chính xác.
+                  Gây tê, mài cùi răng, lấy dấu làm răng sứ và gắn răng tạm
+                  trong thời gian chờ.
                 </p>
               </div>
             </div>
@@ -118,9 +118,8 @@ export default function Process() {
               </figure>
               <div className="lower-content">
                 <p style={{ textAlign: "justify" }}>
-                  Thiết kế nụ cười hoàn mỹ bằng phần mềm DSD 3D, đáp ứng tiêu
-                  chí về tỉ lệ vàng khuôn mặt, form dáng răng theo nhân tướng
-                  học.
+                  Gửi mẫu răng về phòng Labo chuyên biệt để chế tác răng sứ bằng
+                  công nghệ CAD/CAM
                 </p>
               </div>
             </div>
@@ -137,8 +136,7 @@ export default function Process() {
               </figure>
               <div className="lower-content">
                 <p style={{ textAlign: "justify" }}>
-                  Vệ sinh răng, khoang miệng, đảm bảo ngăn chặn các tác nhân có
-                  thể gây viêm nhiễm và lấy dấu răng tạm.
+                  Gắn răng vĩnh viễn, hướng dẫn chăm sóc răng miệng sau bọc sứ
                 </p>
               </div>
             </div>
