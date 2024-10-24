@@ -75,9 +75,7 @@ export default function Team() {
                     </figure>
                   </div>
                   <div className="lower-content">
-                    <h3>
-                      <Link href="team-details">{member.name}</Link>
-                    </h3>
+                    <h3>{member.name}</h3>
                     <span className="designation">{member.role}</span>
                   </div>
                 </div>

@@ -25,7 +25,7 @@ export default function Banner() {
               </h2>
               <p>
                 Khả năng chịu lực gấp 10 lần răng thật, độ thẩm mỹ tối ưu với độ
-                trong mờ lên đến 49%, tương thích sinh học cao
+                trong lên đến 49%, tương thích sinh học cao
               </p>
               <div className="btn-box">
                 <Link href="/tra-cuu-bao-hanh" className="theme-btn btn-two">

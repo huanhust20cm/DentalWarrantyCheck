@@ -1,5 +1,3 @@
-import Link from "next/link";
-import React from "react";
 
 export default function service() {
   return (
@@ -19,18 +17,14 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image">
-                    <Link href="/">
-                      <img src="assets/images/service/02.jpg" alt="" />
-                    </Link>
+                    <img src="assets/images/service/02.jpg" alt="" />
                   </figure>
                   <div className="icon-box img-box">
                     <img src="assets/images/icons/whychoose.png" alt="" />
                   </div>
                 </div>
                 <div className="lower-content">
-                  <h3>
-                    <Link href="/">Cam kết nguồn gốc rõ ràng</Link>
-                  </h3>
+                  <h3>Cam kết nguồn gốc rõ ràng</h3>
                   <p>
                     Thuộc dòng răng toàn sứ và được cấu tạo gồm hai phần, trong
                     đó kết cấu khung sườn chế tác từ Zirconium dioxit có độ dày
@@ -51,18 +45,14 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image">
-                    <Link href="service-details-6">
-                      <img src="assets/images/service/1.jpg" alt="" />
-                    </Link>
+                    <img src="assets/images/service/1.jpg" alt="" />
                   </figure>
                   <div className="icon-box img-box">
                     <img src="assets/images/icons/whychoose4.png" alt="" />
                   </div>
                 </div>
                 <div className="lower-content">
-                  <h3>
-                    <Link href="/">Quy trình sản xuất hiện đại</Link>
-                  </h3>
+                  <h3>Quy trình sản xuất hiện đại</h3>
                   <p>
                     Được chế tác bằng công nghệ CAD/CAM hiện đại nhất hiện nay.
                     Nhờ công nghệ này, răng sứ Cerconia đáp ứng tốt về mặt chức
@@ -84,18 +74,14 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image">
-                    <Link href="service-details">
-                      <img src="assets/images/service/3.jpg" alt="" />
-                    </Link>
+                    <img src="assets/images/service/3.jpg" alt="" />
                   </figure>
                   <div className="icon-box img-box">
                     <img src="assets/images/icons/whychoose2.png" alt="" />
                   </div>
                 </div>
                 <div className="lower-content">
-                  <h3>
-                    <Link href="service-details">Trắng sáng với thời gian</Link>
-                  </h3>
+                  <h3>Trắng sáng với thời gian</h3>
                   <p>
                     Là một dòng răng sứ vừa đảm bảo độ cứng vượt trội với độ
                     trắng sáng và độ trong mờ hoàn hảo, vừa đảm bảo tính thẩm mỹ

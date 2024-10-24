@@ -17,14 +17,10 @@ export default function News() {
             >
               <div className="inner-box">
                 <figure className="image-box">
-                  <Link href="blog-details">
-                    <img src="assets/images/news/protect1.jpg" alt="" />
-                  </Link>
+                  <img src="assets/images/news/protect1.jpg" alt="" />
                 </figure>
                 <div className="lower-content">
-                  <h3>
-                    <Link href="/">Bảo vệ và ngăn ngừa bệnh lý răng miệng</Link>
-                  </h3>
+                  <h3>Bảo vệ và ngăn ngừa bệnh lý răng miệng</h3>
                   <p>
                     Với những trường hợp răng gốc yếu kém, hay bị ê buốt thì một
                     lớp sứ Cerconia bên ngoài cùi răng sẽ như chiếc áo giáp bảo
@@ -42,14 +38,10 @@ export default function News() {
             >
               <div className="inner-box">
                 <figure className="image-box">
-                  <Link href="blog-details">
-                    <img src="assets/images/news/protect0.jpg" alt="" />
-                  </Link>
+                  <img src="assets/images/news/protect0.jpg" alt="" />
                 </figure>
                 <div className="lower-content">
-                  <h3>
-                    <Link href="/">Vệ sinh dễ dàng</Link>
-                  </h3>
+                  <h3>Vệ sinh dễ dàng</h3>
                   <p>
                     Khách hàng sau khi thẩm mỹ răng sứ Cerconia đều cảm thấy
                     việc vệ sinh răng miệng hàng ngày trở nên dễ dàng hơn và khi
@@ -68,14 +60,10 @@ export default function News() {
             >
               <div className="inner-box">
                 <figure className="image-box">
-                  <Link href="blog-details">
-                    <img src="assets/images/news/protect2.jpg" alt="" />
-                  </Link>
+                  <img src="assets/images/news/protect2.jpg" alt="" />
                 </figure>
                 <div className="lower-content">
-                  <h3>
-                    <Link href="/">Ăn nhai thoái mái như răng thật</Link>
-                  </h3>
+                  <h3>Ăn nhai thoái mái như răng thật</h3>
                   <p>
                     Sở hữu độ cứng và khả năng chịu lực vượt trội gấp 5 lần răng
                     thật, răng sứu Cerconia giúp khách hàng có thể thưởng thức

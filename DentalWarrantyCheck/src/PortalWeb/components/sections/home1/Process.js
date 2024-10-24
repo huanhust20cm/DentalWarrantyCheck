@@ -96,7 +96,7 @@ export default function Process() {
             <div className="inner-box">
               <span className="count-text">04</span>
               <figure className="image-box">
-                <img src="assets/images/resource/B4.jpg" alt="" />
+                <img src="assets/images/resource/B4.png" alt="" />
               </figure>
               <div className="lower-content">
                 <p style={{ textAlign: "justify" }}>
@@ -114,7 +114,7 @@ export default function Process() {
             <div className="inner-box">
               <span className="count-text">05</span>
               <figure className="image-box">
-                <img src="assets/images/resource/B5.jpg" alt="" />
+                <img src="assets/images/resource/B4.jpg" alt="" />
               </figure>
               <div className="lower-content">
                 <p style={{ textAlign: "justify" }}>

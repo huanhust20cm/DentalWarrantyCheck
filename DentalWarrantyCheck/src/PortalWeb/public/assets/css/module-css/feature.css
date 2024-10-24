@@ -186,6 +186,20 @@
   .feature-section .shape {
     display: none;
   }
+
+  .grid-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .feature-block-one .inner-box {
+    text-align: center;
+    min-height: 24rem;
+  }
+
+  .feature-block-one .inner-box h3 {
+    font-size: 24px;
+  }
 }
 
 @media only screen and (max-width: 599px) {

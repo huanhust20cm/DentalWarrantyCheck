@@ -149,17 +149,13 @@ export default function Home() {
                       }}
                     ></div>
                     <figure className="image-2">
-                      <img src="assets/images/resource/about-1.png" alt="" />
+                      <img src="assets/images/resource/about2.jpg" alt="" />
                     </figure>
                     <div className="icon-one">
                       <i className="icon-13"></i>
                     </div>
                     <div className="icon-two">
                       <i className="icon-14"></i>
-                    </div>
-                    <div className="text-box">
-                      <h3>Wade Warren</h3>
-                      <span>Medical Assistant</span>
                     </div>
                   </div>
                 </div>
@@ -199,21 +195,9 @@ export default function Home() {
                       </ul>
                     </div>
                     <div className="lower-box">
-                      <div className="experience-box">
-                        <div className="icon-box">
-                          <i className="icon-29"></i>
-                        </div>
-                        <h3>32 Years</h3>
-                        <span className="designation">
-                          Of Medical Experience
-                        </span>
-                      </div>
                       <figure className="author-thumb">
                         <img src="assets/images/resource/author-1.jpg" alt="" />
                       </figure>
-                      <div className="signature">
-                        <img src="assets/images/icons/signature-1.png" alt="" />
-                      </div>
                     </div>
                   </div>
                 </div>

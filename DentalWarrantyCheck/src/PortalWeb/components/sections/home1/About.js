@@ -38,7 +38,7 @@ export default function about() {
                   }}
                 ></div>
                 <figure className="image">
-                  <img src="assets/images/resource/about1.png" alt="" />
+                  <img src="assets/images/resource/about2.jpg" alt="" />
                 </figure>
                 <div className="icon-one">
                   <i className="icon-13"></i>

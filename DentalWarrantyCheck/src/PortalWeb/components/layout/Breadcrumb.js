@@ -7,7 +7,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
         <div
           className="bg-layer"
           style={{
-            backgroundImage: "url(assets/images/background/page-title.jpg)",
+            backgroundImage: "url(assets/images/resource/tracuu.jpg)",
           }}
         ></div>
         <div className="pattern-layer">

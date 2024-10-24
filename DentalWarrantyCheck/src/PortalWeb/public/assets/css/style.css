@@ -795,7 +795,7 @@ img {
 }
 
 .sec-title.light .sub-title {
-  color: var(--secondary-color) !important;
+  color: #25a656 !important;
 }
 
 /*** 
@@ -2572,6 +2572,14 @@ button.ltr {
 
   .sec-pad-2 {
     padding: 70px 0px;
+  }
+
+  .text-center_mobile {
+    text-align: center;
+  }
+
+  .text-center_mobile span {
+    font-size: 26px !important;
   }
 }
 

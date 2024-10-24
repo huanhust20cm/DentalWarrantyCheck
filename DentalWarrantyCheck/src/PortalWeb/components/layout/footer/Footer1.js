@@ -26,7 +26,7 @@ export default function Footer1() {
                 <div className="footer-widget logo-widget">
                   <figure className="footer-logo">
                     <Link href="/">
-                      <img src="assets/images/logo-2.png" alt="" />
+                      <img src="assets/images/banner/logow.png" alt="" />
                     </Link>
                   </figure>
                   <p>

@@ -24,6 +24,10 @@ export default function Video() {
                 backgroundImage: "url(assets/images/shape/shape-17.png)",
               }}
             ></div>
+             <h2>
+              TỎA SÁNG CÙNG NỤ CƯỜI SANG VỚI RĂNG SỨ <br />
+              CERCONIA
+            </h2>
             <div className="video-btn">
               <a onClick={() => setOpen(true)}>
                 <i className="fas fa-play"></i>
@@ -32,10 +36,6 @@ export default function Video() {
                 <span className="border-animation border-3"></span>
               </a>
             </div>
-            <h2>
-              TỎA SÁNG CÙNG NỤ CƯỜI SANG VỚI RĂNG SỨ <br />
-              CERCONIA
-            </h2>
           </div>
         </div>
       </section>
