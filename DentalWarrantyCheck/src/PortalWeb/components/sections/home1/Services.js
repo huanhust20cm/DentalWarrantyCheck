@@ -45,7 +45,7 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image">
-                    <img src="assets/images/service/1.jpg" alt="" />
+                    <img src="assets/images/service/1.png" alt="" />
                   </figure>
                   <div className="icon-box img-box">
                     <img src="assets/images/icons/whychoose4.png" alt="" />
