@@ -17,7 +17,7 @@ export default function Team() {
     {
       id: 3,
       name: "Duy nhất: Thẻ bảo hành răng sứ Cerconia chính hãng 10 năm từ nhà sản xuất",
-      role: "Đảm bảo quyền lợi cho khách hàng trong trường hợp gặp sự cố với mão sứ do lỗikỹ thuật trong quá trình thực hiện hoặc chất lượng sản phẩm.",
+      role: "Đảm bảo quyền lợi cho khách hàng trong trường hợp gặp sự cố với mão sứ do lỗi kỹ thuật trong quá trình thực hiện hoặc chất lượng sản phẩm.",
       image: "assets/images/team/03.jpg",
     },
     {
