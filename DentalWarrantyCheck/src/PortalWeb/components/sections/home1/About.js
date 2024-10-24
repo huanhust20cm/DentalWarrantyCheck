@@ -58,6 +58,10 @@ export default function about() {
                 <div className="text-box mb_40">
                   <h6>Cerconia - Kiệt tác DÒNG SỨ ĐIÊU KHẮC VỚI SỰ HOÀN MỸ</h6>
                   <ul className="list-style-one clearfix">
+                    <li>
+                      Xuất xứ: từ Đức, được sản xuất bởi tập đoàn Densply
+                      Sironia
+                    </li>
                     <li>Độ cứng: 750 - 1200 MPa</li>
                     <li>Độ bền uốn: 1200 Mpa</li>
                     <li>Độ đàn hồi: 210 GPA</li>
