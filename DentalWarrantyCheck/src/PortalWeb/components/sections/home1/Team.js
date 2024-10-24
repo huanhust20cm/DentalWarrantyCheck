@@ -1,18 +1,16 @@
-import React from "react";
-import Link from "next/link";
 export default function Team() {
   const teamMembers = [
+    {
+      id: 4,
+      name: "Duy nhất: Miễn phí thăm khám",
+      role: "Với bác sĩ chuyên khoa Răng - Hàm - Mặt trên 10 năm kinh nghiệm giúp bạn được gặp gỡ và trò chuyện với Bác sĩ để thảo luận về tình trạng răng miệng và nhận được sự tư vấn chuyên nghiệp.",
+      image: "assets/images/team/04.jpg",
+    },
     {
       id: 1,
       name: "Duy nhất: Miễn phí thiết kế nụ cười Digital Smile Design",
       role: "Là công nghệ chophép tạo hình nụ cười một cách toàn diện, từ hình thể của răng đến màu sắc răng, tương quan giữa răng - xương hàm - môi và nướu. ",
       image: "assets/images/team/01.jpg",
-    },
-    {
-      id: 2,
-      name: "Duy nhất: Tặng bộ chăm sóc răng miệng 5.000.000 VNĐ",
-      role: "Cho khách hàng khibọc răng sứ Cerconia. Bên cạnh đó, khách hàng sẽ được miễn phí chăm sóc răng miệng cho cả gia đình trong 3 năm. ",
-      image: "assets/images/team/02.jpg",
     },
     {
       id: 3,
@@ -21,10 +19,10 @@ export default function Team() {
       image: "assets/images/team/03.jpg",
     },
     {
-      id: 4,
-      name: "Duy nhất: Miễn phí thăm khám",
-      role: "Với bác sĩ chuyên khoa Răng - Hàm - Mặt trên 10 năm kinh nghiệm giúp bạn được gặp gỡ và trò chuyện với Bác sĩ để thảo luận về tình trạng răng miệng và nhận được sự tư vấn chuyên nghiệp.",
-      image: "assets/images/team/04.jpg",
+      id: 2,
+      name: "Duy nhất: Tặng bộ chăm sóc răng miệng 5.000.000 VNĐ",
+      role: "Cho khách hàng khibọc răng sứ Cerconia. Bên cạnh đó, khách hàng sẽ được miễn phí chăm sóc răng miệng cho cả gia đình trong 3 năm. ",
+      image: "assets/images/team/02.jpg",
     },
   ];
 
